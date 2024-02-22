@@ -1,0 +1,116 @@
+/** @format */
+
+.back-frieds {
+  background: url(https://www.tastingtable.com/img/gallery/mistakes-everyone-makes-when-frying-food/l-intro-1642790090.jpg)
+    no-repeat center;
+  background-size: cover;
+  margin: 0;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-frieds h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 2px solid;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.53);
+  color: white;
+}
+.title-frieds {
+  text-align: center;
+  margin-block: 2rem;
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+  background-color: brown;
+  margin: 1.4rem;
+  padding: 1rem;
+  color: rgb(255, 123, 0);
+}
+.all-fried .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#container {
+  box-shadow: 0 15px 30px 1px rgba(128, 128, 128, 0.31);
+  background: rgba(171, 86, 86, 0.623);
+  text-align: center;
+  border-radius: 5px;
+  overflow: hidden;
+
+  height: 300px;
+  width: 400px;
+}
+
+/* 	Product details  */
+.product-details {
+  position: relative;
+  text-align: left;
+  overflow: hidden;
+  padding: 30px;
+  height: 100%;
+  float: left;
+  width: 40%;
+  gap: 2rem;
+}
+
+/* 	Product Name */
+#container .product-details h1 {
+  font-family: 'Old Standard TT', serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  font-size: 34px;
+  color: #4b3e40;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin: 0;
+}
+
+/*Product Rating  */
+
+/* The most important information about the product */
+
+/* control */
+
+.control {
+  position: absolute;
+  bottom: 20%;
+  left: 22.8%;
+}
+/* the Button */
+
+/* product image  */
+.product-image {
+  transition: all 0.3s ease-out;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 220px;
+}
+
+#container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info h2 {
+  text-align: center;
+}
+
+.product-image:hover img {
+  transition: all 0.3s ease-out;
+}
+.product-image:hover img {
+  transform: scale(1.2, 1.2);
+}

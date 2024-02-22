@@ -1,0 +1,104 @@
+/** @format */
+
+.back-menu {
+  background: url(https://qul.imgix.net/8b71f474-9847-4772-bfcf-c616b3a69030/629242_sld.jpg)
+    no-repeat center;
+  background-size: cover;
+  margin: 0;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back-menu h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 2px solid;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.53);
+  color: white;
+}
+.pizze-box {
+  background-color: orange;
+}
+.center-title {
+  text-align: center;
+}
+.h2-box {
+  font-style: italic;
+  color: brown;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+.title-pizzas {
+  font-size: 1.3rem;
+  color: black;
+  font-family: cursive;
+  font-weight: bold;
+}
+.title-pizzas:hover {
+  transition: all ease-in-out 0.3s;
+  font-size: 1.5rem;
+  color: rgb(8, 165, 238);
+}
+.img-box {
+  object-fit: cover;
+  height: 250px;
+}
+.img-box:hover {
+  transform: scale(1.1);
+  border: solid black 3px;
+  border-radius: 5px;
+  z-index: 99;
+  transition: all ease-out 0.3s;
+}
+.card-box:hover {
+  transition: all 0.5s;
+  background-color: bisque;
+  box-shadow: rgba(0, 0, 0, 0.615) -3px 3px;
+}
+
+@media screen and (max-width: 600px) {
+  .fullcard {
+    animation: slideIn 1s ease-in-out forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .back-menu h1 {
+    animation: slideIn 1s ease-in-out forwards;
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+
+.post-scrit {
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: cursive;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: brown;
+}

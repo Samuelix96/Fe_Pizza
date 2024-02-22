@@ -1,0 +1,9 @@
+/** @format */
+
+.item-size {
+  object-fit: cover;
+  height: 400px;
+}
+.box-head {
+  background-color: rgba(0, 0, 0, 0.427);
+}

@@ -1,0 +1,17 @@
+/** @format */
+
+.all_links {
+  font-weight: bold;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.all_links a {
+  margin-inline: 2rem;
+}
+.color-nav {
+  background-color: rgb(246, 164, 11);
+}
+.title_nav {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
